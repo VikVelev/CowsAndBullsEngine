@@ -59,7 +59,7 @@ public class GenerateRandom {
 	//based on the English alphabet
 	
 	private static char getRandChar() {
-		
+		//This doesn't really work
 		int rnd = (int) (Math.random() * 52); // or use Random maybe
 		char base = (rnd < 26) ? 'A' : 'a';
 		return (char) (base + rnd % 26);
