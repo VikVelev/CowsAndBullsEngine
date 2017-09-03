@@ -25,6 +25,8 @@ public class Processing {
 	
 	public static void find_matches() {
 		
+		res[0] = 0;
+		res[1] = 0;
 		for(int i=0; i<input.length(); i++) {
 			
 			char symb = input.charAt(i);

@@ -1,7 +1,7 @@
 
 public class Game {
 	
-	public static void play(String randNum) {
+	public static void play(String randNum, int digs) {
 		
 		
 		
@@ -23,9 +23,9 @@ public class Game {
 				int cows = process.res[0];
 				int bulls = process.res[1];
 				
-				io.Output(cows, bulls);
+				io.Output(cows, bulls, digs);
 				
-				if(bulls == 4) {
+				if(bulls == digs) {
 					break;
 				}
 				

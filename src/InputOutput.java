@@ -40,7 +40,7 @@ public class InputOutput {
 		System.out.println("There was an error: " + error);
 	}
 	
-	public static void Output(int cows, int bulls) {
+	public static void Output(int cows, int bulls, int digs) {
 		
 		String cowStr = "";
 		String bullStr = "";
@@ -58,5 +58,9 @@ public class InputOutput {
 		}
 		
 		System.out.println("There are " + cows + " " + cowStr + ", " + bulls + " " + bullStr);	
+		
+		if(bulls == digs) {
+			System.out.println("Congratulations, you win!");
+		}
 	}
 }
