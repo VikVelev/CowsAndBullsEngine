@@ -1,11 +1,42 @@
 
+import java.util.Scanner;
+import java.util.ArrayList;;
+
 public class InputOutput {
 	
-	public static void Input() {
+	public static String Input() {
+		
+		Scanner sc = new Scanner(System.in);
+		String input = sc.nextLine();
+		
+		ArrayList <Character> cont = new ArrayList<>();
+		
+		for(int i=0; i<input.length(); i++) {
+			
+			char s = input.charAt(i);
+			
+			if(cont.contains(s)) {
+				
+				Output( "Symbol " + s + " appears more than once. Please, type a new number.");
+				
+				return "error";
+				
+			}
+			
+			cont.add(s);	
+			
+			
+			
+			
+		}
+		
+		return input;
+
 		
 	}
 	
-	public static void Ouput(String error) {
+	public static void Output(String error) {
+		
 		System.out.println("There was an error: " + error);
 	}
 	
