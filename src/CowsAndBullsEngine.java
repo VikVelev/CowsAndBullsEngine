@@ -3,7 +3,7 @@
  */
 
 /**
- * @author viktorv
+ * @author viktorv, nikifaets
  *
  */
 public class CowsAndBullsEngine {
