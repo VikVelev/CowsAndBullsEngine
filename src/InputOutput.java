@@ -5,6 +5,10 @@ public class InputOutput {
 		
 	}
 	
+	public static void Ouput(String error) {
+		System.out.println("There was an error: " + error);
+	}
+	
 	public static void Output(int cows, int bulls) {
 		
 		String cowStr = "";
