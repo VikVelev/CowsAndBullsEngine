@@ -6,7 +6,7 @@ public class GenerateRandom {
 	//(from 2 all the way up to 9) PIN (It can start with 0)
 	//Accepts an integer, which determines how much digits you want.
 	
-	public static String getRand(int digits_) {
+	public String getRand(int digits_) {
 		//Using random...
 		Random genRand = new Random();
 
@@ -32,7 +32,7 @@ public class GenerateRandom {
 	//This takes the number of symbol length as an integer and
 	//String like "yes" which tells the function to use this overloaded method.
 	
-	public static String getRand(int symbols_, String str) {
+	public String getRand(int symbols_, String str) {
 		
 		//Declaring an array with size determined by the argument int symbols_
 		//We don't actually use str anywhere, just to do method overloading;
@@ -58,7 +58,7 @@ public class GenerateRandom {
 	//A private method for generating a random char
 	//based on the English alphabet
 	
-	private static char getRandChar() {
+	private  char getRandChar() {
 		//This doesn't really work
 		int rnd = (int) (Math.random() * 52); // or use Random maybe
 		char base = (rnd < 26) ? 'A' : 'a';

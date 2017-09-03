@@ -1,7 +1,7 @@
 
 public class Game {
 	
-	public static void play(String randNum, int digs) {
+	public  void play(String randNum, int digs) {
 		
 		
 		

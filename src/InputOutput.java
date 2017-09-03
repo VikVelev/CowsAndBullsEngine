@@ -4,7 +4,7 @@ import java.util.ArrayList;;
 
 public class InputOutput {
 	
-	public static String Input() {
+	public String Input() {
 		
 		Scanner sc = new Scanner(System.in);
 		String input = sc.nextLine();
@@ -35,12 +35,12 @@ public class InputOutput {
 		
 	}
 	
-	public static void Output(String error) {
+	public void Output(String error) {
 		
 		System.out.println("There was an error: " + error);
 	}
 	
-	public static void Output(int cows, int bulls, int digs) {
+	public void Output(int cows, int bulls, int digs) {
 		
 		String cowStr = "";
 		String bullStr = "";

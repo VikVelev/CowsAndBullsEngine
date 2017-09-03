@@ -1,14 +1,14 @@
 
 public class Processing {
 	
-	public static String input;
-	public static String num;
+	public String input;
+	public String num;
 	
 	//record cows and bulls
 	//0 stores cows
 	//1 stores bulls
 			
-	public static int[] res = new int[2];
+	public int[] res = new int[2];
 	
 	public Processing(String str_input, String str_num){
 		
@@ -23,7 +23,7 @@ public class Processing {
 		
 	}
 	
-	public static void find_matches() {
+	public void find_matches() {
 		
 		res[0] = 0;
 		res[1] = 0;
@@ -45,7 +45,7 @@ public class Processing {
 		}
 	}
 	
-	public static int init(char symb) {
+	public int init(char symb) {
 		
 		//return -1 if symb is not in the number
 		// return 0 for cow
