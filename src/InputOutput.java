@@ -57,6 +57,6 @@ public class InputOutput {
 			bullStr = "bulls";
 		}
 		
-		System.out.println("There are" + cows + " " + cowStr + ", " + bulls + " " + bullStr);	
+		System.out.println("There are " + cows + " " + cowStr + ", " + bulls + " " + bullStr);	
 	}
 }
