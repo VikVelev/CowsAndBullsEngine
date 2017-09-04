@@ -15,12 +15,7 @@ public class Processing {
 		input = str_input;
 		num = str_num;
 		find_matches();
-		
-		
-		
-		
-		
-		
+
 	}
 	
 	public void find_matches() {

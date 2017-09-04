@@ -11,9 +11,6 @@ public class Start {
 		
 		game.play(randNum, digs);
 		
-		
-		
-		
 	}
 	
 	

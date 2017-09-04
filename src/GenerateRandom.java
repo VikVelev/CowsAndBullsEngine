@@ -58,7 +58,7 @@ public class GenerateRandom {
 	//A private method for generating a random char
 	//based on the English alphabet
 	
-	private  char getRandChar() {
+	private char getRandChar() {
 		//This doesn't really work
 		int rnd = (int) (Math.random() * 52); // or use Random maybe
 		char base = (rnd < 26) ? 'A' : 'a';

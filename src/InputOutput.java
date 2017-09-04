@@ -4,7 +4,7 @@ import java.util.ArrayList;;
 
 public class InputOutput {
 	
-	public String Input() {
+	public String input() {
 		
 		Scanner sc = new Scanner(System.in);
 		String input = sc.nextLine();
@@ -17,7 +17,7 @@ public class InputOutput {
 			
 			if(cont.contains(s)) {
 				
-				Output( "Symbol " + s + " appears more than once. Please, type a new number.");
+				output( "Symbol " + s + " appears more than once. Please, type a new number.");
 				
 				return "error";
 				
@@ -25,22 +25,22 @@ public class InputOutput {
 			
 			cont.add(s);	
 			
-			
-			
-			
 		}
 		
 		return input;
-
 		
 	}
 	
-	public void Output(String error) {
+	public void output(String error) {
 		
 		System.out.println("There was an error: " + error);
 	}
 	
-	public void Output(int cows, int bulls, int digs) {
+	public void outputMessage(String str) {
+		System.out.println(str);
+	}
+	
+	public void output(int cows, int bulls, int digs) {
 		
 		String cowStr = "";
 		String bullStr = "";
